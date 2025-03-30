@@ -83,4 +83,22 @@ HTML PROJECT
 </body>
 </html>
 
+<title>Happy Birthday Video</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="video-container">
+    <video id="birthday-video" autoplay muted loop>
+      <source src="birthday-video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="text-overlay">
+      <h1 id="happy-birthday-text">HAPPY BIRTHDAY!</h1>
+      <p id="name-text">[Name]</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
 
